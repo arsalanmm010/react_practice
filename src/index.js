@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Header from './Components/Header'
-import Footer from './Components/Footer';
-import MainContent from './Components/MainContent';
+import App from './App';
+
+// Project 1
+// import Header from './Components/Header'
+// import Footer from './Components/Footer';
+// import MainContent from './Components/MainContent';
 
 //import App from './App';
 
@@ -21,20 +24,20 @@ import MainContent from './Components/MainContent';
 //   </div>
 // )
 
-function CustomPage() {
-  return(
-    <div className='box'>
-      <Header/>
-      <MainContent />
-      <Footer />
-    </div>
-  )
-}
+// function CustomPage() {
+//   return(
+//     <div className='box'>
+//       <Header/>
+//       <MainContent />
+//       <Footer />
+//     </div>
+//   )
+// }
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <CustomPage/>
+  <App />
 );
 
 // If you want to start measuring performance in your app, pass a function

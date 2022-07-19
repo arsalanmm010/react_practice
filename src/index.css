@@ -1,4 +1,5 @@
-html,body {
+ /* Project 1 */
+/* html,body {
   margin: 0px;
   background-color: whitesmoke;
   height: 100%;
@@ -44,4 +45,77 @@ footer {
 .main {
   font-size: larger;
   line-height: 50px;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+}
+
+.img {
+  margin-left: 25px;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.nav {
+  height: 90px;
+  background: #21222A;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+h3 {
+  font-weight: 700;
+  line-height: 25px;
+  color: #61DAFB;
+  margin-right: auto;
+}
+
+h4 {
+  font-weight: 600;
+  line-height: 20px;
+  color:#DEEBF8;
+  margin-right: 30px;
+}
+
+.main-body {
+  position: absolute;
+  background: #282D35;
+  left: 0px;
+  top: 90px;
+  width: 100%;
+  height: 100%;
+}
+
+.main-h1 {
+  margin-left: 30px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: -0.05em;
+}
+
+.margin-ul {
+  font-weight: 400;
+}
+
+.main-ul > li {
+  margin-left: 50px;
+  color: #FFFFFF;
+  padding-bottom: 20px; 
+}
+
+.main-ul > li::marker {
+  color: #61DAFB;
+  font-size: 1.2em;
 }
